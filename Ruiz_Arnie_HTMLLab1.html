@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- 
+HTML Comment:
+This is a basic HTML5 document for Laboratory Tasks 1, 2, 3, and 4.
+It demonstrates headings, paragraphs, lists, links, images, tables, and JavaScript alert.
+-->
+
+<html>
+<head>
+    <title>HTML Laboratory Tasks 1–4</title>
+
+    <style>
+        /* ===== Body ===== */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cdcccc;
+            margin: 0;
+            padding: 0;
+            display: flex;             /* Flexbox for centering */
+            justify-content: center;   /* Horizontal center */
+            align-items: center;       /* Vertical center */
+            min-height: 100vh;         /* Full viewport height */
+            text-align: center;        /* Center text inside container */
+        }
+
+        /* ===== Container ===== */
+        .container {
+            background-color: #fad1d1;
+            width: 80%;
+            max-width: 800px;
+            padding: 30px;
+            border: 2px solid #cccccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, p, ul, ol, table, img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #444;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul, ol {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left; 
+            display: inline-block;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            border: 2px solid #cccccc;
+            border-radius: 6px;
+        }
+
+        /* ===== Table Styling ===== */
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 2px solid #cccccc;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fad1d1;
+        }
+
+    </style>
+
+    <!-- ===== Laboratory Task 4 ===== -->
+    <script>
+        // Display alert when the page loads
+        window.onload = function() {
+            alert('Hello World');
+        };
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ===== Laboratory Task 1 ===== -->
+        <h1>My Laboratory Tasks</h1>
+        <p>
+            This is my laboratory about my hobbies, what i hate, and the students information.
+        </p>
+
+        <!-- ===== Laboratory Task 2 ===== -->
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing online games</li>
+            <li>Playing guitar</li>
+            <li>Watching movies</li>
+        </ul>
+
+        <h2>What I Hate</h2>
+        <ol>
+            <li>Solving math problems</li>
+            <li>Doing homework</li>
+            <li>Being late to class</li>
+        </ol>
+
+        <h2>Visit Sports Club</h2>
+        <p>
+            Visit 
+            <a href="https://www.odoo.com" target="_blank">
+                Odoo Website
+            </a>
+            for more information.
+        </p>
+        <img src="http://logos-download.com/wp-content/uploads/2016/10/Odoo_logo.png" alt="Sample image">
+
+        <!-- ===== Laboratory Task 3 ===== -->
+        <h2>Student Information Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Year Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Arnie Ruiz</td>
+                    <td>BSIT</td>
+                    <td>3rd Year</td>
+                </tr>
+                <tr>
+                    <td>Maria Santos</td>
+                    <td>BSBA</td>
+                    <td>3rd Year</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+</html>
